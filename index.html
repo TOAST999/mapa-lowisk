@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#123e35">
+  <title>Atlas łowisk • Mapa Polski</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="static/atlas.css">
+  <script defer src="static/mapa.js"></script>
+  <script defer src="static/atlas.js"></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap nav">
+    <div class="brand"><span class="mark" aria-hidden="true"><i></i></span><span>Atlas łowisk</span></div>
+    <button id="about-open" class="nav-link">O projekcie <span aria-hidden="true">↗</span></button>
+  </div>
+</header>
+<main class="wrap">
+  <div class="intro">
+    <h1>Mapa łowisk <em>w Polsce</em></h1>
+    <p>Znajdź wodę po regionie lub gatunku ryby. Otwórz kartę, żeby sprawdzić głębokość i zgłoszenia.</p>
+  </div>
+  <div class="dashboard">
+    <section class="directory" aria-labelledby="directory-title">
+      <div class="section-head"><h2 id="directory-title">Łowiska</h2><span id="result-count" aria-live="polite"></span></div>
+      <div class="filter-box">
+        <label for="search">Nazwa, miejscowość lub ryba</label>
+        <div class="search-wrap"><span class="glass" aria-hidden="true"></span><input type="search" id="search" placeholder="np. sandacz" autocomplete="off"></div>
+        <label for="region">Województwo</label>
+        <select id="region"><option value="">Cała Polska</option></select>
+      </div>
+      <div id="lake-list" class="lake-list"></div>
+    </section>
+    <section class="map-panel" aria-label="Interaktywna mapa łowisk">
+      <div class="map-top"><div><span class="live-dot" aria-hidden="true"></span><h2 id="map-title">Polska</h2></div><span class="coord-label">Mapa regionalna</span></div>
+      <div id="map" class="map" aria-label="Mapa województw. Te same łowiska są dostępne na liście.">
+        <canvas id="geography" aria-hidden="true"></canvas>
+        <div id="pins" class="pins"></div>
+        <div class="map-tools"><button id="zoom-in" aria-label="Powiększ mapę" title="Powiększ">+</button><button id="zoom-out" aria-label="Pomniejsz mapę" title="Pomniejsz">−</button><button id="map-home" aria-label="Pokaż całą Polskę" title="Cała Polska"><span class="fit-icon" aria-hidden="true"></span></button></div>
+      </div>
+      <div class="map-key"><span><i class="water-dot"></i> Łowisko</span><span><i class="sector"></i> Region pilotażowy</span><span><i class="notice-dot"></i> Próbne zgłoszenie</span><a href="https://github.com/waszkiewiczja/GeoJSON-Polska-Wojewodztwa-Powiaty-Gminy" target="_blank" rel="noreferrer">Granice GUGiK ↗</a></div>
+    </section>
+  </div>
+  <p id="app-status" class="status" role="status"></p>
+</main>
+<dialog id="lake-dialog" aria-labelledby="detail-name">
+  <div class="dialog-top"><span class="dialog-label">Karta łowiska</span><button class="close" data-close aria-label="Zamknij kartę łowiska">×</button></div>
+  <div class="detail-body">
+    <p id="detail-region" class="region-name"></p><h2 id="detail-name"></h2><p id="detail-town" class="town-name"></p>
+    <div class="facts"><div><h3>Głębokość maksymalna</h3><strong id="detail-depth"></strong></div><div><h3>Gatunki ryb</h3><ul id="detail-fish" class="fish"></ul></div></div>
+    <section class="reports" aria-labelledby="report-heading"><div class="report-heading"><h3 id="report-heading">Zgłoszenia kontroli</h3><span class="test-badge">Tryb testowy</span></div><p id="report-intro"></p><div id="report-actions"></div><p id="report-status" class="feedback" aria-live="polite"></p></section>
+    <details class="sources"><summary>Źródła danych o łowisku</summary><ul id="detail-sources"></ul><p>Głębokość podajemy według wskazanego źródła. Poziom wody może się zmieniać.</p></details>
+  </div>
+</dialog>
+<dialog id="about-dialog" aria-labelledby="about-heading">
+  <div class="dialog-top"><span class="dialog-label">Projekt szkolny</span><button class="close" data-close aria-label="Zamknij informacje o projekcie">×</button></div>
+  <div class="detail-body"><h2 id="about-heading">O atlasie</h2><p>Atlas obejmuje 15 łowisk w województwach dolnośląskim, opolskim i lubuskim. Wybierz region na mapie lub w filtrze. Liczba w znaczniku oznacza kilka pobliskich łowisk. Kliknij ją, by je rozdzielić.</p><p>W module próbnych kontroli używamy fikcyjnych zdarzeń przypisanych do całego akwenu. Wpis wygasa po dwóch godzinach. Dwóch niezależnych testerów może ukryć błędny wpis, oznaczając go jako pomyłkę.</p><p id="about-mode"></p><p><a href="https://docs.google.com/document/d/19-anXV_sCFhmBsD43IFtxT1gCtv0Eo87KuHjEX9sEw0/edit?usp=drivesdk" target="_blank" rel="noreferrer">Cel SMART i rejestr ryzyk ↗</a></p></div>
+</dialog>
+</body></html>

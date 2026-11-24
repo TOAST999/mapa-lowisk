@@ -1,0 +1,393 @@
+[
+  {
+    "id": "mietkowskie",
+    "name": "Jezioro Mietkowskie",
+    "region": "dolnośląskie",
+    "town": "Mietków",
+    "lat": 50.95616,
+    "lon": 16.61845,
+    "depth": 13,
+    "fish": [
+      "sandacz",
+      "leszcz",
+      "karp",
+      "lin",
+      "szczupak",
+      "okoń"
+    ],
+    "sources": [
+      [
+        "Wody Polskie • głębokość i ryby",
+        "https://wroclaw.wody.gov.pl/images/Aktualnosci/2024/Wykaz_Obiektw_udostpnionych_do_zwiedzania_RZGW_we_Wrocawiu_-_Aktywni_Bkitni_2023-2024.pdf"
+      ],
+      [
+        "Stanica PZW Mietków • ryby",
+        "https://mietkow.pzw.wroclaw.pl/wedkarstwo/"
+      ],
+      [
+        "Polskie Łowiska • położenie",
+        "https://polskielowiska.pl/wody/zbiornik-mietkow-wroclawiu"
+      ]
+    ]
+  },
+  {
+    "id": "slup",
+    "name": "Zbiornik Słup",
+    "region": "dolnośląskie",
+    "town": "Męcinka",
+    "lat": 51.09683,
+    "lon": 16.12469,
+    "depth": 21,
+    "fish": [
+      "amur",
+      "boleń",
+      "karaś",
+      "karp"
+    ],
+    "sources": [
+      [
+        "Powiat Jaworski • głębokość",
+        "https://www.spjawor-bip.pbox.pl/public/get_file.php?id=189574"
+      ],
+      [
+        "Fishster • ryby",
+        "https://fishster.pl/lowiska/zbiornik-slup-635"
+      ],
+      [
+        "Polskie Łowiska • położenie",
+        "https://polskielowiska.pl/wody/zbiornik-s-up-legnicy"
+      ]
+    ]
+  },
+  {
+    "id": "kunickie",
+    "name": "Jezioro Kunickie",
+    "region": "dolnośląskie",
+    "town": "Kunice",
+    "lat": 51.22489,
+    "lon": 16.26234,
+    "depth": 7,
+    "fish": [
+      "leszcz",
+      "okoń",
+      "szczupak",
+      "sandacz"
+    ],
+    "sources": [
+      [
+        "Gmina Kunice • głębokość i ryby",
+        "https://www.kunice.pl/2019/07/02/jezioro-kunickie/"
+      ],
+      [
+        "Polskie Łowiska • położenie",
+        "https://polskielowiska.pl/wody/kunice"
+      ]
+    ]
+  },
+  {
+    "id": "zlotnickie",
+    "name": "Jezioro Złotnickie",
+    "region": "dolnośląskie",
+    "town": "Złotniki Lubańskie",
+    "lat": 51.02329,
+    "lon": 15.36493,
+    "depth": 22,
+    "fish": [
+      "sandacz",
+      "szczupak",
+      "okoń",
+      "leszcz",
+      "lin"
+    ],
+    "sources": [
+      [
+        "Polskie Łowiska • opis akwenu i położenie",
+        "https://polskielowiska.pl/wody/zlotnickie"
+      ]
+    ]
+  },
+  {
+    "id": "bystrzyckie",
+    "name": "Jezioro Bystrzyckie",
+    "region": "dolnośląskie",
+    "town": "Zagórze Śląskie",
+    "lat": 50.75177,
+    "lon": 16.42757,
+    "depth": 30,
+    "fish": [
+      "szczupak",
+      "sandacz",
+      "okoń",
+      "leszcz"
+    ],
+    "sources": [
+      [
+        "Polskie Łowiska • opis akwenu i położenie",
+        "https://polskielowiska.pl/wody/jezioro-bystrzyckie-w-zagorzu-slaskim-iv1-obwod-rybacki-rzeki-bystrzyca-nr-1"
+      ]
+    ]
+  },
+  {
+    "id": "turawskie",
+    "name": "Jezioro Turawskie",
+    "region": "opolskie",
+    "town": "Turawa",
+    "lat": 50.72547,
+    "lon": 18.1325,
+    "depth": 13,
+    "fish": [
+      "leszcz",
+      "krąp",
+      "sandacz",
+      "szczupak",
+      "okoń"
+    ],
+    "sources": [
+      [
+        "PZW • głębokość i ryby",
+        "https://kielce.pzw.pl/strefa-wedkarza/lowiska-i-wody-pzw/13-zbiornik-turawa_zhLjiU9kH9f3zPNG4W7m"
+      ],
+      [
+        "Wędkownik • położenie",
+        "https://wedkownik.pl/jeziora/jezioro-turawskie-pl-16/"
+      ]
+    ]
+  },
+  {
+    "id": "nyskie",
+    "name": "Jezioro Nyskie",
+    "region": "opolskie",
+    "town": "Nysa",
+    "lat": 50.45392,
+    "lon": 17.26022,
+    "depth": 13.6,
+    "fish": [
+      "leszcz",
+      "sandacz",
+      "szczupak",
+      "sum",
+      "lin"
+    ],
+    "sources": [
+      [
+        "PZW • głębokość i ryby",
+        "https://om.pzw.pl/strefa-wedkarza/lowiska-i-wody-pzw/15-zbiornik-nysa_GKiyFGBDTGCKlWS7Vgxw"
+      ],
+      [
+        "Wędkownik • położenie",
+        "https://wedkownik.pl/jeziora/jezioro-nyskie-pl-16/"
+      ]
+    ]
+  },
+  {
+    "id": "otmuchowskie",
+    "name": "Jezioro Otmuchowskie",
+    "region": "opolskie",
+    "town": "Otmuchów",
+    "lat": 50.46502,
+    "lon": 17.11965,
+    "depth": 18.4,
+    "fish": [
+      "karaś",
+      "karp",
+      "leszcz",
+      "okoń"
+    ],
+    "sources": [
+      [
+        "Fishster • głębokość i ryby",
+        "https://fishster.pl/lowiska/jezioro-otmuchowskie-604"
+      ],
+      [
+        "Wędkownik • położenie",
+        "https://wedkownik.pl/jeziora/jezioro-otmuchowskie-pl-16/"
+      ]
+    ]
+  },
+  {
+    "id": "michalice",
+    "name": "Zbiornik Michalice",
+    "region": "opolskie",
+    "town": "Namysłów",
+    "lat": 51.10879,
+    "lon": 17.75757,
+    "depth": 3,
+    "fish": [
+      "szczupak",
+      "lin",
+      "płoć",
+      "leszcz",
+      "sandacz"
+    ],
+    "sources": [
+      [
+        "PZW • głębokość i ryby",
+        "https://opole.pzw.pl/strefa-wedkarza/lowiska-i-wody-pzw/16-zbiornik-michalice_3cyUX4qmERyhbvYgCpj6"
+      ],
+      [
+        "HardFish • położenie",
+        "https://hardfish.pl/lowiska/pzw/zbiornik-michalice"
+      ]
+    ]
+  },
+  {
+    "id": "nowaki",
+    "name": "Zbiornik Nowaki",
+    "region": "opolskie",
+    "town": "Pakosławice",
+    "lat": 50.53607,
+    "lon": 17.25554,
+    "depth": 7,
+    "fish": [
+      "karp",
+      "amur",
+      "leszcz",
+      "okoń",
+      "sandacz"
+    ],
+    "sources": [
+      [
+        "Przewodnik PZW • głębokość i ryby",
+        "https://opole.pzw.pl/brepo/panel_repo/2023/06/24/xnvjy7/opolskie-kwitnace-wedkarstwo.pdf"
+      ],
+      [
+        "fishRadar • położenie",
+        "https://fishradar.pl/lowiska/opolskie/nowaki-zbiornik"
+      ]
+    ]
+  },
+  {
+    "id": "lagowskie",
+    "name": "Jezioro Łagowskie",
+    "region": "lubuskie",
+    "town": "Łagów",
+    "lat": 52.32939,
+    "lon": 15.28894,
+    "depth": 13.5,
+    "fish": [
+      "szczupak",
+      "okoń",
+      "lin",
+      "leszcz"
+    ],
+    "sources": [
+      [
+        "Plan ochrony parku • głębokość",
+        "https://www.zpkwl.gorzow.pl/phocadownload/plany_ochrony/lspk/Plan_Ochrony_agowsko-Sulciskiego_Parku_Krajobrazowego_Etap_II.pdf"
+      ],
+      [
+        "Polskie Łowiska • ryby i położenie",
+        "https://polskielowiska.pl/wody/lagowskie"
+      ]
+    ]
+  },
+  {
+    "id": "trzesniowskie",
+    "name": "Jezioro Trześniowskie",
+    "region": "lubuskie",
+    "town": "Łagów",
+    "lat": 52.35402,
+    "lon": 15.29942,
+    "depth": 58.8,
+    "fish": [
+      "szczupak",
+      "okoń",
+      "lin",
+      "płoć"
+    ],
+    "sources": [
+      [
+        "Plan ochrony parku • głębokość",
+        "https://www.zpkwl.gorzow.pl/phocadownload/plany_ochrony/lspk/Plan_Ochrony_agowsko-Sulciskiego_Parku_Krajobrazowego_Etap_II.pdf"
+      ],
+      [
+        "Polskie Łowiska • ryby i położenie",
+        "https://polskielowiska.pl/wody/trzesniowskie-ciecz"
+      ]
+    ]
+  },
+  {
+    "id": "nieslysz",
+    "name": "Jezioro Niesłysz",
+    "region": "lubuskie",
+    "town": "Niesulice",
+    "lat": 52.23188,
+    "lon": 15.39615,
+    "depth": 34.7,
+    "fish": [
+      "sielawa",
+      "węgorz",
+      "szczupak",
+      "lin",
+      "leszcz"
+    ],
+    "sources": [
+      [
+        "Opracowanie naukowe • głębokość",
+        "https://bibliotekanauki.pl/articles/450622.pdf"
+      ],
+      [
+        "Kormoran Niesulice • ryby",
+        "https://www.kormoran-niesulice.pl/osrodek/wedkarstwo/"
+      ],
+      [
+        "Polskie Łowiska • położenie",
+        "https://polskielowiska.pl/wody/jezioro-nieslysz"
+      ]
+    ]
+  },
+  {
+    "id": "slawskie",
+    "name": "Jezioro Sławskie",
+    "region": "lubuskie",
+    "town": "Sława",
+    "lat": 51.88914,
+    "lon": 16.00825,
+    "depth": 12.3,
+    "fish": [
+      "sandacz",
+      "szczupak",
+      "leszcz",
+      "okoń"
+    ],
+    "sources": [
+      [
+        "Opracowanie naukowe • głębokość",
+        "https://bibliotekanauki.pl/articles/450622.pdf"
+      ],
+      [
+        "Polskie Łowiska • ryby i położenie",
+        "https://polskielowiska.pl/wody/jezioro-slawskie"
+      ]
+    ]
+  },
+  {
+    "id": "lubikowskie",
+    "name": "Jezioro Lubikowskie",
+    "region": "lubuskie",
+    "town": "Lubikowo",
+    "lat": 52.52946,
+    "lon": 15.67775,
+    "depth": 35.5,
+    "fish": [
+      "szczupak",
+      "sandacz",
+      "okoń",
+      "leszcz"
+    ],
+    "sources": [
+      [
+        "Opracowanie naukowe • głębokość",
+        "https://bibliotekanauki.pl/articles/450622.pdf"
+      ],
+      [
+        "Polskie Łowiska • ryby",
+        "https://polskielowiska.pl/wody/lubikowskie-gorzowie-wlkp"
+      ],
+      [
+        "Wędkownik • położenie",
+        "https://wedkownik.pl/jeziora/jezioro-lubikowskie-pl-08/"
+      ]
+    ]
+  }
+]
