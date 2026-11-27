@@ -75,7 +75,3 @@ Kontrole prowadzą m.in. Państwowa Straż Rybacka i Społeczna Straż Rybacka. 
 - **P × W** = 3 × 2 = **6** (umiarkowany).
 - **Działania prewencyjne.** Przed testem z użytkownikami sprawdzimy filtr i znaczniki na dwóch telefonach o różnej wielkości ekranu.
 - **Plan awaryjny.** Powiększymy znaczniki lub przeniesiemy filtr nad mapę, zależnie od miejsca błędu. Powtórzymy zadanie z testerami.
-
-## Uwagi nauczyciela
-
-_Tu można dopisać uwagi do celu SMART lub wskazanego ryzyka._
