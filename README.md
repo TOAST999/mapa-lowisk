@@ -30,6 +30,7 @@ Po dodaniu próbnej kontroli całe łowisko dostaje oznaczenie na mapie. Pozosta
 
 ## Dokumentacja projektu
 
+- [Cel SMART i ryzyka — wersja do edycji na GitHubie](docs/Cel-SMART-i-ryzyka.md) · [Dodaj komentarz do wybranego fragmentu](https://github.com/TOAST999/mapa-lowisk/commit/32c1de11383469a879ab7ad05bc6cf7948c9a3ba)
 - [Cel SMART, zakres i rejestr ryzyk w Dokumentach Google](https://docs.google.com/document/d/19-anXV_sCFhmBsD43IFtxT1gCtv0Eo87KuHjEX9sEw0/edit?usp=drivesdk)
 - [Kopia dokumentu w PDF](Mapa%20%C5%82owisk%20w%20Polsce%20%E2%80%93%20cel%20SMART%2C%20zakres%20i%20ryzyka.pdf)
 - [Wersja edytowalna w Wordzie](docs/Mapa_lowisk_w_Polsce.docx)
